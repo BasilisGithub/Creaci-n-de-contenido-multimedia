@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.animate-bg::before, .animate-bg::after {
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: -8px;
+    background: linear-gradient(120deg, #ff1e00, #0b0966, #e6e204, #39e704, #133802, #ff8a04);
+    background-size: 300%;
+    width: calc(100% + 27px);
+    height: calc(100% + 16px);
+    z-index: -1;
+    animation: BGgradient 8s ease infinite;
+}
+
+@keyframes BGgradient {
+    0% {
+        background-position: 0% 200%;
+    }
+    50% {
+        background-position: 200% 0%;
+    }
+    100% {
+        background-position: 0% 330%;
+    }
+}
+
+.animate-bg::after {
+    filter: brightness(1.4);
+    filter: drop-shadow(16px 16px 20px rgba(248, 220, 97));
+    filter: blur(15px);
+}
+
+#about1 p {
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#about1 img {
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+#about1-1 p {
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#about1-1 img {
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+
+#about1-2 p {
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#about1-2 img {
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+
+#about1-3 p {
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#about1-3 img {
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+
+#about2 p {
+    margin-left: 450px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+#about2 img {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#about2-1 p {
+    margin-left: 450px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+#about2-1 img {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#about2-2 p {
+    margin-left: 450px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+#about2-2 img {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#about2-3 p {
+    margin-left: 450px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+#about2-3 img {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.contenedor a:hover {
+    color: gray;
+    transition: 0.3s;
+}
+
+.video video {
+    width: 800px;
+}
